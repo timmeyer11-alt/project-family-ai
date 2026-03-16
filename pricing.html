@@ -661,466 +661,106 @@
       <div class="shape shape-3"></div>
     </div>
     <div class="container pricing-hero-content">
-      <p class="pricing-hero-eyebrow">Pricing</p>
-      <h1 class="pricing-hero-headline">Simple, Transparent <span class="text-gradient">Pricing</span></h1>
+      <p class="pricing-hero-eyebrow">Get Started</p>
+      <h1 class="pricing-hero-headline">Start With a Free <span class="text-gradient">Assessment</span></h1>
       <p class="pricing-hero-sub">
-        Whether you're an individual learner, a business ready to transform, or an AI practitioner
-        looking for community &mdash; there's a plan designed for you.
+        We believe in humans first. Before we talk about anything else, we want to
+        understand where you are and where you want to go. That starts with a conversation
+        &mdash; completely free, no strings attached.
       </p>
     </div>
   </header>
 
   <!-- ================================================================ -->
-  <!-- SECTION 1: LEARN AI (For Individuals) -->
+  <!-- FREE ASSESSMENT -->
   <!-- ================================================================ -->
-  <section class="pricing-section" id="learn">
-    <div class="container">
-      <div class="pricing-section-icon learn fade-in">
-        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="36" height="36">
-          <path d="M24 14L14 20V32L24 38L34 32V20L24 14Z" stroke="#FF6F61" stroke-width="2" stroke-linejoin="round"/>
-          <path d="M24 26V38" stroke="#FF6F61" stroke-width="2"/>
-          <path d="M14 20L24 26L34 20" stroke="#FF6F61" stroke-width="2"/>
-          <circle cx="24" cy="22" r="3" fill="#FF6F61" fill-opacity="0.3" stroke="#FF6F61" stroke-width="1.5"/>
-        </svg>
-      </div>
-      <span class="section-eyebrow">For Individuals</span>
-      <h2 class="section-heading fade-in">Learn AI</h2>
-      <p class="pricing-section-desc fade-in">
-        Structured learning paths for every level. Go from AI-curious to AI-confident with courses,
-        coaching, and a supportive community by your side.
-      </p>
-
-      <!-- Billing Toggle -->
-      <div class="billing-toggle-wrapper fade-in">
-        <span class="billing-label active" id="monthlyLabel">Monthly</span>
-        <button class="billing-toggle" id="billingToggle" aria-label="Toggle annual billing">
-          <span class="billing-toggle-knob"></span>
-        </button>
-        <span class="billing-label" id="annualLabel">Annual <span class="billing-save-badge">Save 2 months</span></span>
-      </div>
-
-      <div class="pricing-grid cols-4">
-        <!-- Free -->
-        <div class="pricing-card fade-in">
-          <h3 class="pricing-card-name">Free</h3>
-          <div class="pricing-card-price">
-            <span class="amount">$0</span><span class="period">/mo</span>
-          </div>
-          <p class="pricing-card-note">Free forever</p>
-          <div class="pricing-divider"></div>
-          <ul class="pricing-features">
-            <li>AI basics email course (5-day)</li>
-            <li>Community Slack access</li>
-            <li>Monthly webinar access</li>
-            <li>Curated resource library</li>
-          </ul>
-          <a href="mailto:tim.meyer11@gmail.com?subject=Sign%20Up%20%E2%80%93%20Free%20Plan%20(Learn%20AI)" class="pricing-cta cta-free">Get Started Free</a>
-        </div>
-
-        <!-- Essentials -->
-        <div class="pricing-card fade-in">
-          <h3 class="pricing-card-name">Essentials</h3>
-          <div class="pricing-card-price">
-            <span class="original-price annual-price" style="display:none;"></span>
-            <span class="amount plan-price" data-monthly="29" data-annual="24">$29</span><span class="period plan-period">/mo</span>
-          </div>
-          <p class="pricing-card-note plan-note">
-            <span class="monthly-note">Billed monthly</span>
-            <span class="annual-note" style="display:none;">$290/yr &mdash; billed annually</span>
-          </p>
-          <div class="pricing-divider"></div>
-          <ul class="pricing-features">
-            <li>Everything in Free</li>
-            <li>Self-paced course library (20+ courses)</li>
-            <li>Weekly group Q&amp;A sessions</li>
-            <li>Course completion certificates</li>
-            <li>Priority email support</li>
-          </ul>
-          <a href="mailto:tim.meyer11@gmail.com?subject=Sign%20Up%20%E2%80%93%20Essentials%20Plan%20(Learn%20AI)" class="pricing-cta">Choose Essentials</a>
-        </div>
-
-        <!-- Pro (Popular) -->
-        <div class="pricing-card popular fade-in">
-          <span class="popular-badge">Most Popular</span>
-          <h3 class="pricing-card-name">Pro</h3>
-          <div class="pricing-card-price">
-            <span class="original-price annual-price" style="display:none;"></span>
-            <span class="amount plan-price" data-monthly="99" data-annual="83">$99</span><span class="period plan-period">/mo</span>
-          </div>
-          <p class="pricing-card-note plan-note">
-            <span class="monthly-note">Billed monthly</span>
-            <span class="annual-note" style="display:none;">$990/yr &mdash; billed annually</span>
-          </p>
-          <div class="pricing-divider"></div>
-          <ul class="pricing-features">
-            <li>Everything in Essentials</li>
-            <li>Live cohort-based programs</li>
-            <li>1-on-1 monthly coaching call (30 min)</li>
-            <li>Advanced workshops</li>
-            <li>Early access to new content</li>
-            <li>Private Slack channels</li>
-          </ul>
-          <a href="mailto:tim.meyer11@gmail.com?subject=Sign%20Up%20%E2%80%93%20Pro%20Plan%20(Learn%20AI)" class="pricing-cta">Choose Pro</a>
-        </div>
-
-        <!-- Executive -->
-        <div class="pricing-card fade-in">
-          <h3 class="pricing-card-name">Executive</h3>
-          <div class="pricing-card-price">
-            <span class="original-price annual-price" style="display:none;"></span>
-            <span class="amount plan-price" data-monthly="299" data-annual="249">$299</span><span class="period plan-period">/mo</span>
-          </div>
-          <p class="pricing-card-note plan-note">
-            <span class="monthly-note">Billed monthly</span>
-            <span class="annual-note" style="display:none;">$2,990/yr &mdash; billed annually</span>
-          </p>
-          <div class="pricing-divider"></div>
-          <ul class="pricing-features">
-            <li>Everything in Pro</li>
-            <li>Weekly 1-on-1 coaching (60 min)</li>
-            <li>Custom learning roadmap</li>
-            <li>Direct Slack access to founders</li>
-            <li>AI tool recommendations &amp; setup</li>
-            <li>Quarterly strategy session</li>
-          </ul>
-          <a href="mailto:tim.meyer11@gmail.com?subject=Sign%20Up%20%E2%80%93%20Executive%20Plan%20(Learn%20AI)" class="pricing-cta">Choose Executive</a>
-        </div>
-      </div>
-
-      <!-- Money-Back Guarantee -->
-      <div class="guarantee-badge fade-in">
-        <svg class="guarantee-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="24" cy="24" r="20" stroke="#1B4332" stroke-width="2" fill="none"/>
-          <path d="M16 24L22 30L32 18" stroke="#1B4332" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-        <div class="guarantee-text">
-          <strong>30-Day Money-Back Guarantee</strong>
-          <span>Try any individual plan risk-free. Not satisfied? Get a full refund, no questions asked.</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ================================================================ -->
-  <!-- SECTION 2: TRANSFORM YOUR BUSINESS (For Organizations) -->
-  <!-- ================================================================ -->
-  <section class="pricing-section" id="transform">
-    <div class="container">
-      <div class="pricing-section-icon transform fade-in">
-        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="36" height="36">
-          <path d="M16 34V22" stroke="#1B4332" stroke-width="2.5" stroke-linecap="round"/>
-          <path d="M24 34V16" stroke="#1B4332" stroke-width="2.5" stroke-linecap="round"/>
-          <path d="M32 34V26" stroke="#1B4332" stroke-width="2.5" stroke-linecap="round"/>
-          <path d="M14 18L22 14L30 20L36 16" stroke="#FF6F61" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-          <circle cx="36" cy="16" r="2" fill="#FF6F61"/>
-        </svg>
-      </div>
-      <span class="section-eyebrow">For Organizations</span>
-      <h2 class="section-heading fade-in">Transform Your Business</h2>
-      <p class="pricing-section-desc fade-in">
-        From readiness assessments to full-scale implementation, we partner with you to unlock
-        AI's potential across your organization.
-      </p>
-
-      <div class="pricing-grid cols-5">
-        <!-- AI Readiness Assessment -->
-        <div class="pricing-card fade-in">
-          <h3 class="pricing-card-name">AI Readiness Assessment</h3>
-          <div class="pricing-card-price">
-            <span class="amount">$1,500</span>
-          </div>
-          <p class="pricing-card-note">One-time engagement</p>
-          <div class="pricing-divider"></div>
-          <ul class="pricing-features">
-            <li>2-week assessment</li>
-            <li>Stakeholder interviews</li>
-            <li>Current state analysis</li>
-            <li>AI opportunity map</li>
-            <li>Executive presentation</li>
-            <li>30-page report with prioritized recommendations</li>
-          </ul>
-          <a href="mailto:tim.meyer11@gmail.com?subject=Inquiry%20%E2%80%93%20AI%20Readiness%20Assessment" class="pricing-cta">Get Started</a>
-        </div>
-
-        <!-- Team Training -->
-        <div class="pricing-card fade-in">
-          <h3 class="pricing-card-name">Team Training</h3>
-          <div class="pricing-card-price">
-            <span class="amount">$3,500</span><span class="period">/day</span>
-          </div>
-          <p class="pricing-card-note">On-site or virtual</p>
-          <div class="pricing-divider"></div>
-          <ul class="pricing-features">
-            <li>Up to 25 participants</li>
-            <li>Customized curriculum</li>
-            <li>Hands-on workshops</li>
-            <li>Follow-up materials</li>
-            <li>30-day post-training support</li>
-          </ul>
-          <a href="mailto:tim.meyer11@gmail.com?subject=Inquiry%20%E2%80%93%20Team%20Training" class="pricing-cta">Book Training</a>
-        </div>
-
-        <!-- AI Strategy & Roadmap (Popular) -->
-        <div class="pricing-card popular fade-in">
-          <span class="popular-badge">Most Popular</span>
-          <h3 class="pricing-card-name">AI Strategy &amp; Roadmap</h3>
-          <div class="pricing-card-price">
-            <span class="amount">$10,000</span>
-          </div>
-          <p class="pricing-card-note">4-6 week engagement</p>
-          <div class="pricing-divider"></div>
-          <ul class="pricing-features">
-            <li>C-suite workshops</li>
-            <li>Use case prioritization</li>
-            <li>Technology recommendations</li>
-            <li>Implementation roadmap</li>
-            <li>ROI projections</li>
-            <li>Change management plan</li>
-          </ul>
-          <a href="mailto:tim.meyer11@gmail.com?subject=Inquiry%20%E2%80%93%20AI%20Strategy%20%26%20Roadmap" class="pricing-cta">Let's Talk Strategy</a>
-        </div>
-
-        <!-- Full Implementation -->
-        <div class="pricing-card fade-in">
-          <h3 class="pricing-card-name">Full Implementation</h3>
-          <div class="pricing-card-price">
-            <span class="period" style="font-size: 0.8125rem; display: block; margin-bottom: 4px;">Starting at</span>
-            <span class="amount">$15,000</span><span class="period">/mo</span>
-          </div>
-          <p class="pricing-card-note">Dedicated engagement</p>
-          <div class="pricing-divider"></div>
-          <ul class="pricing-features">
-            <li>Dedicated team of AI practitioners</li>
-            <li>Custom AI solution development</li>
-            <li>Integration with existing systems</li>
-            <li>Training &amp; knowledge transfer</li>
-            <li>Ongoing support &amp; optimization</li>
-            <li>Monthly executive reporting</li>
-          </ul>
-          <a href="mailto:tim.meyer11@gmail.com?subject=Inquiry%20%E2%80%93%20Full%20AI%20Implementation" class="pricing-cta">Start a Conversation</a>
-        </div>
-
-        <!-- Advisory Retainer -->
-        <div class="pricing-card fade-in">
-          <h3 class="pricing-card-name">Advisory Retainer</h3>
-          <div class="pricing-card-price">
-            <span class="amount">$3,000</span><span class="period">/mo</span>
-          </div>
-          <p class="pricing-card-note">Ongoing partnership</p>
-          <div class="pricing-divider"></div>
-          <ul class="pricing-features">
-            <li>Monthly strategy sessions</li>
-            <li>Ongoing AI guidance</li>
-            <li>Vendor evaluation support</li>
-            <li>Team coaching</li>
-            <li>Priority access to collective talent</li>
-          </ul>
-          <a href="mailto:tim.meyer11@gmail.com?subject=Inquiry%20%E2%80%93%20Advisory%20Retainer" class="pricing-cta">Become a Client</a>
-        </div>
-      </div>
-
-      <!-- Custom Solutions Callout -->
-      <div class="custom-callout fade-in">
-        <div class="custom-callout-content">
-          <h3>Need a Custom Solution?</h3>
-          <p>
-            Every organization is different. If our standard packages don't quite fit, we'll
-            build a custom engagement tailored to your goals, timeline, and budget.
-          </p>
-          <a href="mailto:tim.meyer11@gmail.com?subject=Custom%20Enterprise%20Solution%20Inquiry" class="btn btn-primary">Contact Us for Custom Pricing</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ================================================================ -->
-  <!-- SECTION 3: JOIN THE COLLECTIVE (For AI Practitioners) -->
-  <!-- ================================================================ -->
-  <section class="pricing-section" id="collective">
-    <div class="container">
-      <div class="pricing-section-icon collective fade-in">
-        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="36" height="36">
-          <circle cx="24" cy="18" r="5" stroke="#FF6F61" stroke-width="2"/>
-          <circle cx="14" cy="24" r="4" stroke="#FF6F61" stroke-width="1.5" opacity="0.6"/>
-          <circle cx="34" cy="24" r="4" stroke="#FF6F61" stroke-width="1.5" opacity="0.6"/>
-          <path d="M16 36C16 31.5817 19.5817 28 24 28C28.4183 28 32 31.5817 32 36" stroke="#FF6F61" stroke-width="2" stroke-linecap="round"/>
-        </svg>
-      </div>
-      <span class="section-eyebrow">For AI Practitioners</span>
-      <h2 class="section-heading fade-in">Join the Collective</h2>
-      <p class="pricing-section-desc fade-in">
-        Collaborate, grow, and do meaningful work alongside a community of AI professionals.
-        More than a network &mdash; it's a family.
-      </p>
-
-      <div class="pricing-grid cols-3">
-        <!-- Community (Free) -->
-        <div class="pricing-card fade-in">
-          <h3 class="pricing-card-name">Community</h3>
-          <div class="pricing-card-price">
-            <span class="amount">Free</span>
-          </div>
-          <p class="pricing-card-note">Always free</p>
-          <div class="pricing-divider"></div>
-          <ul class="pricing-features">
-            <li>Public Slack channels</li>
-            <li>Monthly community calls</li>
-            <li>Job board access</li>
-            <li>Newsletter</li>
-          </ul>
-          <a href="mailto:tim.meyer11@gmail.com?subject=Join%20%E2%80%93%20Community%20(Free)" class="pricing-cta cta-free">Join for Free</a>
-        </div>
-
-        <!-- Member (Popular) -->
-        <div class="pricing-card popular fade-in">
-          <span class="popular-badge">Most Popular</span>
-          <h3 class="pricing-card-name">Member</h3>
-          <div class="pricing-card-price">
-            <span class="original-price annual-price" style="display:none;"></span>
-            <span class="amount plan-price" data-monthly="19" data-annual="16">$19</span><span class="period plan-period">/mo</span>
-          </div>
-          <p class="pricing-card-note plan-note">
-            <span class="monthly-note">Billed monthly</span>
-            <span class="annual-note" style="display:none;">$190/yr &mdash; billed annually</span>
-          </p>
-          <div class="pricing-divider"></div>
-          <ul class="pricing-features">
-            <li>Everything in Community</li>
-            <li>Private channels &amp; events</li>
-            <li>Peer mentorship matching</li>
-            <li>Project collaboration board</li>
-            <li>Member directory listing</li>
-            <li>80/20 revenue share on projects</li>
-          </ul>
-          <a href="mailto:tim.meyer11@gmail.com?subject=Join%20%E2%80%93%20Member%20Plan%20(Collective)" class="pricing-cta">Become a Member</a>
-        </div>
-
-        <!-- Partner -->
-        <div class="pricing-card fade-in">
-          <h3 class="pricing-card-name">Partner</h3>
-          <div class="pricing-card-price">
-            <span class="original-price annual-price" style="display:none;"></span>
-            <span class="amount plan-price" data-monthly="49" data-annual="41">$49</span><span class="period plan-period">/mo</span>
-          </div>
-          <p class="pricing-card-note plan-note">
-            <span class="monthly-note">Billed monthly</span>
-            <span class="annual-note" style="display:none;">$490/yr &mdash; billed annually</span>
-          </p>
-          <div class="pricing-divider"></div>
-          <ul class="pricing-features">
-            <li>Everything in Member</li>
-            <li>Priority project matching</li>
-            <li>Featured profile listing</li>
-            <li>Lead generation from business clients</li>
-            <li>Co-marketing opportunities</li>
-            <li>70/30 revenue share on projects</li>
-            <li>Voting rights on collective decisions</li>
-          </ul>
-          <a href="mailto:tim.meyer11@gmail.com?subject=Join%20%E2%80%93%20Partner%20Plan%20(Collective)" class="pricing-cta">Become a Partner</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ================================================================ -->
-  <!-- NOT SURE SECTION -->
-  <!-- ================================================================ -->
-  <section class="not-sure-section" id="not-sure">
-    <div class="container">
-      <div class="not-sure-content fade-in">
-        <div class="not-sure-icon">&#129300;</div>
-        <h2>Not Sure Which Plan Is Right?</h2>
-        <p>
-          We get it &mdash; choosing can be overwhelming. Drop us a note and we'll help you find
-          the perfect fit based on your goals, experience level, and budget. No pressure, ever.
+  <section class="pricing-section" id="assessment" style="padding: 100px 0; background: var(--color-bg-white);">
+    <div class="container" style="max-width: 900px;">
+      <div class="fade-in" style="text-align: center; margin-bottom: 60px;">
+        <span class="section-eyebrow">No Cost. No Commitment.</span>
+        <h2 class="section-heading">Your Free AI Assessment</h2>
+        <p style="font-size: 1.125rem; color: var(--color-text-light); line-height: 1.8; max-width: 700px; margin: 0 auto;">
+          Whether you're an individual curious about AI or a business wondering where to start,
+          we'll sit down with you, understand your world, and give you an honest picture of
+          how AI can help. No sales pitch. Just clarity.
         </p>
-        <a href="mailto:tim.meyer11@gmail.com?subject=Help%20Me%20Choose%20a%20Plan" class="btn btn-primary">Let's Figure It Out Together</a>
       </div>
-    </div>
-  </section>
 
-  <!-- ================================================================ -->
-  <!-- FAQ SECTION -->
-  <!-- ================================================================ -->
-  <section class="faq-section" id="faq">
-    <div class="container">
-      <span class="section-eyebrow">FAQ</span>
-      <h2 class="section-heading fade-in">Frequently Asked Questions</h2>
-      <p class="section-sub fade-in">Everything you need to know about our pricing and plans.</p>
+      <div class="pricing-card popular fade-in" style="max-width: 600px; margin: 0 auto; text-align: center; padding: 48px 40px;">
+        <span class="popular-badge">100% Free</span>
+        <h3 class="pricing-card-name" style="font-size: 1.75rem; margin-top: 12px;">AI Assessment</h3>
+        <div class="pricing-card-price">
+          <span class="amount" style="font-size: 3rem;">$0</span>
+        </div>
+        <p class="pricing-card-note" style="margin-bottom: 24px;">No credit card. No obligation. Ever.</p>
+        <div class="pricing-divider"></div>
+        <ul class="pricing-features" style="text-align: left; max-width: 400px; margin: 0 auto 32px;">
+          <li>30-minute conversation with a co-founder</li>
+          <li>Understand where you are with AI today</li>
+          <li>Identify your biggest opportunities</li>
+          <li>Get a personalized next-steps roadmap</li>
+          <li>Honest advice &mdash; even if that means we're not the right fit</li>
+          <li>For individuals and businesses alike</li>
+        </ul>
+        <a href="mailto:tim.meyer11@gmail.com?subject=Free%20AI%20Assessment%20Request&body=Hi%20Tim%2C%0A%0AI'd%20like%20to%20request%20a%20free%20AI%20assessment.%0A%0AA%20bit%20about%20me%2Fmy%20organization%3A%0A%0A" class="pricing-cta" style="background: var(--color-accent); color: #fff; border-color: var(--color-accent); font-size: 1.125rem; padding: 18px 32px;">Request Your Free Assessment</a>
+      </div>
 
-      <div class="faq-grid">
-        <div class="faq-item fade-in">
-          <button class="faq-question">Can I switch plans at any time?</button>
-          <div class="faq-answer">
-            <p>Absolutely. You can upgrade or downgrade your plan at any time. When upgrading, you'll be prorated for the remainder of your billing cycle. When downgrading, the change takes effect at the start of your next billing period.</p>
+      <!-- What Happens Next -->
+      <div class="fade-in" style="margin-top: 80px; text-align: center;">
+        <h3 style="font-family: var(--font-heading); font-size: 1.5rem; font-weight: 700; color: var(--color-primary); margin-bottom: 40px;">What Happens Next</h3>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 32px; text-align: center;">
+          <div>
+            <div style="width: 56px; height: 56px; border-radius: 50%; background: rgba(27, 67, 50, 0.08); display: flex; align-items: center; justify-content: center; margin: 0 auto 16px; font-family: var(--font-heading); font-size: 1.25rem; font-weight: 700; color: var(--color-primary);">1</div>
+            <h4 style="font-family: var(--font-heading); font-size: 1rem; font-weight: 600; margin-bottom: 8px;">You Reach Out</h4>
+            <p style="font-size: 0.875rem; color: var(--color-text-light); line-height: 1.6;">Send us an email. Tell us a little about yourself and what you're hoping to do with AI.</p>
+          </div>
+          <div>
+            <div style="width: 56px; height: 56px; border-radius: 50%; background: rgba(27, 67, 50, 0.08); display: flex; align-items: center; justify-content: center; margin: 0 auto 16px; font-family: var(--font-heading); font-size: 1.25rem; font-weight: 700; color: var(--color-primary);">2</div>
+            <h4 style="font-family: var(--font-heading); font-size: 1rem; font-weight: 600; margin-bottom: 8px;">We Schedule a Call</h4>
+            <p style="font-size: 0.875rem; color: var(--color-text-light); line-height: 1.6;">We'll set up a 30-minute conversation at a time that works for you. No prep needed on your end.</p>
+          </div>
+          <div>
+            <div style="width: 56px; height: 56px; border-radius: 50%; background: rgba(27, 67, 50, 0.08); display: flex; align-items: center; justify-content: center; margin: 0 auto 16px; font-family: var(--font-heading); font-size: 1.25rem; font-weight: 700; color: var(--color-primary);">3</div>
+            <h4 style="font-family: var(--font-heading); font-size: 1rem; font-weight: 600; margin-bottom: 8px;">You Get Clarity</h4>
+            <p style="font-size: 0.875rem; color: var(--color-text-light); line-height: 1.6;">We'll give you a clear, honest assessment and a roadmap for your AI journey. No pressure. Just direction.</p>
           </div>
         </div>
+      </div>
 
-        <div class="faq-item fade-in">
-          <button class="faq-question">How does the 30-day money-back guarantee work?</button>
-          <div class="faq-answer">
-            <p>If you're not satisfied with any individual plan (Essentials, Pro, or Executive) within the first 30 days, simply email us and we'll issue a full refund. No questions asked, no hoops to jump through.</p>
+      <!-- Who This Is For -->
+      <div class="fade-in" style="margin-top: 80px; text-align: center;">
+        <h3 style="font-family: var(--font-heading); font-size: 1.5rem; font-weight: 700; color: var(--color-primary); margin-bottom: 24px;">Who This Is For</h3>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; text-align: left; max-width: 800px; margin: 0 auto;">
+          <div style="background: var(--color-bg); padding: 24px 28px; border-radius: var(--radius-md);">
+            <strong style="font-family: var(--font-heading); color: var(--color-primary);">Individuals</strong>
+            <p style="font-size: 0.875rem; color: var(--color-text-light); margin-top: 8px; line-height: 1.6;">"I keep hearing about AI but don't know where to start." We'll help you figure out what to learn and how to use it in your life and career.</p>
           </div>
-        </div>
-
-        <div class="faq-item fade-in">
-          <button class="faq-question">What's included in the annual billing discount?</button>
-          <div class="faq-answer">
-            <p>When you choose annual billing, you get the equivalent of 2 months free. You're billed once per year at the discounted rate. All features remain exactly the same as the monthly plan.</p>
+          <div style="background: var(--color-bg); padding: 24px 28px; border-radius: var(--radius-md);">
+            <strong style="font-family: var(--font-heading); color: var(--color-primary);">Business Leaders</strong>
+            <p style="font-size: 0.875rem; color: var(--color-text-light); margin-top: 8px; line-height: 1.6;">"I know AI matters but I don't know what's real vs. hype." We'll cut through the noise and show you where AI can actually move the needle.</p>
           </div>
-        </div>
-
-        <div class="faq-item fade-in">
-          <button class="faq-question">Do I need technical experience to start learning?</button>
-          <div class="faq-answer">
-            <p>Not at all. Our Free and Essentials plans are designed for complete beginners. We start from the very basics and build up from there. No coding experience, no math background, no prerequisites &mdash; just curiosity.</p>
+          <div style="background: var(--color-bg); padding: 24px 28px; border-radius: var(--radius-md);">
+            <strong style="font-family: var(--font-heading); color: var(--color-primary);">Teams</strong>
+            <p style="font-size: 0.875rem; color: var(--color-text-light); margin-top: 8px; line-height: 1.6;">"My team needs to upskill but I don't know where to point them." We'll assess your team's current state and recommend a practical path forward.</p>
           </div>
-        </div>
-
-        <div class="faq-item fade-in">
-          <button class="faq-question">How do business consulting engagements work?</button>
-          <div class="faq-answer">
-            <p>It starts with a conversation. We'll discuss your goals, assess your current state, and recommend the right engagement. Most clients begin with an AI Readiness Assessment or Strategy &amp; Roadmap, then move to implementation. Every engagement includes clear deliverables, timelines, and milestones.</p>
-          </div>
-        </div>
-
-        <div class="faq-item fade-in">
-          <button class="faq-question">What does the revenue share model mean for collective members?</button>
-          <div class="faq-answer">
-            <p>When business clients hire the collective for projects, revenue is shared between the practitioners who do the work and the collective. Members receive an 80/20 split (80% to you), while Partners receive a 70/30 split but get priority matching and lead generation that typically results in more projects overall.</p>
-          </div>
-        </div>
-
-        <div class="faq-item fade-in">
-          <button class="faq-question">Can I combine plans? For example, learn AI while being a collective member?</button>
-          <div class="faq-answer">
-            <p>Yes! Many of our community members have both a Learn AI subscription and a Collective membership. They complement each other perfectly &mdash; learn new skills and immediately apply them on real projects. Contact us about bundled pricing.</p>
-          </div>
-        </div>
-
-        <div class="faq-item fade-in">
-          <button class="faq-question">Do you offer discounts for nonprofits or educational institutions?</button>
-          <div class="faq-answer">
-            <p>We do. We believe AI education should be accessible to everyone. Nonprofits, educational institutions, and community organizations may qualify for discounted or sponsored access. Reach out and we'll work something out.</p>
-          </div>
-        </div>
-
-        <div class="faq-item fade-in">
-          <button class="faq-question">What payment methods do you accept?</button>
-          <div class="faq-answer">
-            <p>We accept all major credit cards (Visa, Mastercard, American Express), ACH transfers, and can arrange invoicing for business clients. Enterprise engagements can be structured with custom payment terms.</p>
-          </div>
-        </div>
-
-        <div class="faq-item fade-in">
-          <button class="faq-question">How do I cancel my subscription?</button>
-          <div class="faq-answer">
-            <p>You can cancel anytime by emailing us at tim.meyer11@gmail.com. There are no cancellation fees or long-term contracts for individual and collective plans. Your access continues through the end of your current billing period.</p>
+          <div style="background: var(--color-bg); padding: 24px 28px; border-radius: var(--radius-md);">
+            <strong style="font-family: var(--font-heading); color: var(--color-primary);">AI Practitioners</strong>
+            <p style="font-size: 0.875rem; color: var(--color-text-light); margin-top: 8px; line-height: 1.6;">"I want to do more with my AI skills." We'll talk about how the collective works and whether it's a fit for where you're heading.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
+
+  <!-- ======== BOTTOM CTA ======== -->
+  <section style="padding: 80px 0; background: linear-gradient(160deg, #1B4332 0%, #2D6A4F 100%); text-align: center;">
+    <div class="container fade-in" style="max-width: 600px;">
+      <h2 style="font-family: var(--font-heading); font-size: 2rem; font-weight: 800; color: #fff; margin-bottom: 16px;">Humans first. Always.</h2>
+      <p style="font-size: 1.0625rem; color: rgba(255,255,255,0.8); line-height: 1.8; margin-bottom: 32px;">We built Project Family AI because we believe everyone deserves access to AI &mdash; not just enterprises with big budgets. Start with a conversation. That's all we ask.</p>
+      <a href="mailto:tim.meyer11@gmail.com?subject=Free%20AI%20Assessment%20Request" class="btn btn-primary" style="font-size: 1.125rem; padding: 18px 36px;">Request Your Free Assessment</a>
+    </div>
+  </section>
+
 
   <!-- ======== FOOTER ======== -->
   <footer class="footer">

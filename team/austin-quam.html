@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Austin Quam — Co-Founder & COO of Project Family AI. Learn about Austin's expertise in operations, strategy, and scaling the AI practitioner collective.">
+  <meta name="author" content="Project Family AI, LLC">
+
+  <meta property="og:title" content="Austin Quam — Co-Founder & COO | Project Family AI">
+  <meta property="og:description" content="Meet Austin Quam, Co-Founder & COO of Project Family AI.">
+  <meta property="og:type" content="profile">
+  <meta property="og:site_name" content="Project Family AI">
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#129302;</text></svg>">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../styles.css">
+  <title>Austin Quam — Co-Founder &amp; COO | Project Family AI</title>
+
+  <style>
+    .profile-hero { position: relative; padding: 160px 0 80px; background: linear-gradient(160deg, #1B4332 0%, #2D6A4F 40%, #40916C 100%); overflow: hidden; text-align: center; }
+    .profile-hero .hero-bg-shapes { position: absolute; inset: 0; pointer-events: none; overflow: hidden; }
+    .profile-hero-content { position: relative; z-index: 1; max-width: 720px; margin: 0 auto; }
+    .profile-avatar { width: 140px; height: 140px; border-radius: 50%; background: var(--color-accent); color: #fff; display: flex; align-items: center; justify-content: center; font-family: var(--font-heading); font-size: 3rem; font-weight: 700; margin: 0 auto 28px; box-shadow: 0 8px 32px rgba(255, 111, 97, 0.35); opacity: 0; animation: fadeInUp 0.8s ease-out 0.2s forwards; }
+    .profile-name { font-size: clamp(2rem, 5vw, 3rem); font-weight: 800; color: #fff; margin-bottom: 8px; opacity: 0; animation: fadeInUp 0.8s ease-out 0.4s forwards; }
+    .profile-title { font-family: var(--font-heading); font-size: 1.125rem; font-weight: 600; color: var(--color-accent-light); margin-bottom: 0; opacity: 0; animation: fadeInUp 0.8s ease-out 0.6s forwards; }
+    .back-link { display: inline-flex; align-items: center; gap: 8px; font-family: var(--font-heading); font-size: 0.875rem; font-weight: 600; color: rgba(255, 255, 255, 0.7); margin-bottom: 32px; transition: color var(--transition); opacity: 0; animation: fadeInUp 0.8s ease-out 0.1s forwards; }
+    .back-link:hover { color: #fff; }
+    .profile-bio { padding: 100px 0; background: var(--color-bg-white); }
+    .profile-bio-content { max-width: 720px; margin: 0 auto; }
+    .profile-bio-text { font-size: 1.0625rem; color: var(--color-text-light); line-height: 1.9; margin-bottom: 24px; }
+    .profile-working-on { padding: 100px 0; background: var(--color-bg); }
+    .profile-working-on-content { max-width: 720px; margin: 0 auto; }
+    .working-on-list { margin-top: 32px; }
+    .working-on-item { display: flex; gap: 20px; align-items: flex-start; padding: 24px 0; border-bottom: 1px solid var(--color-border); }
+    .working-on-item:last-child { border-bottom: none; }
+    .working-on-bullet { width: 12px; height: 12px; border-radius: 50%; background: var(--color-accent); flex-shrink: 0; margin-top: 8px; }
+    .working-on-item h3 { font-size: 1.125rem; color: var(--color-primary); margin-bottom: 8px; }
+    .working-on-item p { font-size: 0.9375rem; color: var(--color-text-light); line-height: 1.7; }
+    .profile-connect { padding: 100px 0; background: var(--color-bg-white); text-align: center; }
+    .profile-connect-content { max-width: 540px; margin: 0 auto; }
+    .connect-links { display: flex; gap: 16px; justify-content: center; margin-top: 32px; flex-wrap: wrap; }
+    .connect-link { display: inline-flex; align-items: center; gap: 10px; padding: 14px 28px; border-radius: var(--radius-xl); font-family: var(--font-heading); font-size: 0.9375rem; font-weight: 600; border: 2px solid var(--color-border); color: var(--color-text); transition: all var(--transition); }
+    .connect-link:hover { border-color: var(--color-accent); color: var(--color-accent); transform: translateY(-2px); box-shadow: var(--shadow-md); }
+    .connect-link svg { flex-shrink: 0; }
+    .back-to-team { display: inline-flex; align-items: center; gap: 8px; margin-top: 48px; font-family: var(--font-heading); font-size: 0.9375rem; font-weight: 600; color: var(--color-primary); transition: all var(--transition); }
+    .back-to-team:hover { color: var(--color-accent); }
+    @media (max-width: 768px) {
+      .profile-hero { padding: 120px 0 60px; }
+      .profile-bio, .profile-working-on, .profile-connect { padding: 80px 0; }
+      .connect-links { flex-direction: column; align-items: center; }
+      .connect-link { width: 100%; max-width: 280px; justify-content: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="../index.html" class="nav-logo">
+        <span class="logo-icon">&#10038;</span>
+        <span>Project Family <span class="logo-ai">AI</span></span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="hamburger"></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="../index.html#mission" class="nav-link">Mission</a></li>
+        <li><a href="../index.html#services" class="nav-link">Services</a></li>
+        <li><a href="../team.html" class="nav-link">Team</a></li>
+        <li><a href="../index.html#testimonials" class="nav-link">Testimonials</a></li>
+        <li><a href="../index.html#cta" class="nav-link nav-cta-btn">Get Started</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="profile-hero">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="container profile-hero-content">
+      <a href="../team.html" class="back-link">&larr; Back to Team</a>
+      <div class="profile-avatar">AQ</div>
+      <h1 class="profile-name">Austin Quam</h1>
+      <p class="profile-title">Co-Founder &amp; Chief Operating Officer</p>
+    </div>
+  </header>
+
+  <section class="profile-bio">
+    <div class="container">
+      <div class="profile-bio-content fade-in">
+        <span class="section-eyebrow">About Austin</span>
+        <h2 class="section-heading">Background &amp; Expertise</h2>
+        <p class="profile-bio-text">
+          Austin Quam is an operations and strategy expert who thrives on turning ambitious
+          visions into repeatable, scalable realities. Before co-founding Project Family AI,
+          Austin built and optimized operational systems for technology-driven organizations,
+          gaining deep experience in resource planning, process design, financial modeling,
+          and strategic partnerships. He learned early in his career that the best ideas
+          in the world mean nothing without the infrastructure to execute them.
+        </p>
+        <p class="profile-bio-text">
+          At Project Family AI, Austin is the architect behind the scenes. He designed the
+          operating model for the practitioner collective, created the frameworks that match
+          consultants to engagements, and built the financial and legal structures that allow
+          the company to scale while staying true to its values. His approach to operations is
+          human-centered: he believes systems should serve people, not the other way around,
+          and he designs every process with the end user &mdash; whether client or practitioner
+          &mdash; in mind.
+        </p>
+        <p class="profile-bio-text">
+          As COO, Austin manages day-to-day business operations, leads strategic planning,
+          and ensures that every part of the organization runs with the efficiency and care
+          that their clients deserve. He is the person who makes sure the trains run on time,
+          the quality stays high, and the team has everything they need to do their best work.
+          His quiet, steady leadership is the backbone of Project Family AI.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="profile-working-on">
+    <div class="container">
+      <div class="profile-working-on-content fade-in">
+        <span class="section-eyebrow">Current Focus</span>
+        <h2 class="section-heading">What I'm Working On</h2>
+        <div class="working-on-list">
+          <div class="working-on-item">
+            <div class="working-on-bullet"></div>
+            <div>
+              <h3>Practitioner Matching &amp; Staffing System</h3>
+              <p>Building an intelligent staffing system that matches collective members to client engagements based on skills, interests, availability, and growth goals &mdash; optimizing for both client outcomes and practitioner development.</p>
+            </div>
+          </div>
+          <div class="working-on-item">
+            <div class="working-on-bullet"></div>
+            <div>
+              <h3>Scalable Revenue-Sharing Model</h3>
+              <p>Refining the collective's compensation and revenue-sharing framework to ensure fairness, transparency, and sustainability as the team grows from dozens to hundreds of practitioners.</p>
+            </div>
+          </div>
+          <div class="working-on-item">
+            <div class="working-on-bullet"></div>
+            <div>
+              <h3>Operational Playbooks for Growth</h3>
+              <p>Documenting and systematizing the operational processes that have made Project Family AI successful so far, creating playbooks that enable the team to scale without losing quality or culture.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="profile-connect">
+    <div class="container">
+      <div class="profile-connect-content fade-in">
+        <span class="section-eyebrow">Get in Touch</span>
+        <h2 class="section-heading">Connect with Austin</h2>
+        <div class="connect-links">
+          <a href="#" class="connect-link">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            LinkedIn
+          </a>
+          <a href="#" class="connect-link">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            X / Twitter
+          </a>
+          <a href="mailto:austin@projectfamilyai.com" class="connect-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 4L12 13L2 4"/></svg>
+            Email
+          </a>
+        </div>
+        <a href="../team.html" class="back-to-team">&larr; Back to the full team</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="../index.html" class="nav-logo footer-logo"><span class="logo-icon">&#10038;</span><span>Project Family <span class="logo-ai">AI</span></span></a>
+          <p class="footer-tagline">Making AI accessible, practical, and empowering for every human and every business.</p>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+            <a href="#" class="social-link" aria-label="X (Twitter)"><svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+            <a href="#" class="social-link" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+            <a href="#" class="social-link" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678a6.162 6.162 0 100 12.324 6.162 6.162 0 100-12.324zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405a1.441 1.441 0 11-2.882 0 1.441 1.441 0 012.882 0z"/></svg></a>
+          </div>
+        </div>
+        <div class="footer-links"><h4>Company</h4><ul><li><a href="../index.html#mission">Our Mission</a></li><li><a href="../index.html#services">Services</a></li><li><a href="../team.html">Our Team</a></li><li><a href="#">Careers</a></li></ul></div>
+        <div class="footer-links"><h4>Resources</h4><ul><li><a href="#">Blog</a></li><li><a href="#">Free AI Guide</a></li><li><a href="#">Case Studies</a></li><li><a href="#">Events</a></li></ul></div>
+        <div class="footer-links"><h4>Support</h4><ul><li><a href="#">Contact Us</a></li><li><a href="#">FAQ</a></li><li><a href="#">Privacy Policy</a></li><li><a href="#">Terms of Service</a></li></ul></div>
+      </div>
+      <div class="footer-bottom"><p>&copy; 2026 Project Family AI, LLC. All rights reserved.</p><p>Made with care for the entire human family.</p></div>
+    </div>
+  </footer>
+
+  <script>
+    (function(){
+      'use strict';var navbar=document.getElementById('navbar'),navToggle=document.getElementById('navToggle'),navMenu=document.getElementById('navMenu'),navLinks=document.querySelectorAll('.nav-link'),fadeEls=document.querySelectorAll('.fade-in'),overlay=null;
+      function createOverlay(){overlay=document.createElement('div');overlay.className='nav-overlay';document.body.appendChild(overlay);overlay.addEventListener('click',closeMenu);}
+      function openMenu(){navToggle.classList.add('active');navToggle.setAttribute('aria-expanded','true');navMenu.classList.add('open');if(overlay)overlay.classList.add('active');document.body.style.overflow='hidden';}
+      function closeMenu(){navToggle.classList.remove('active');navToggle.setAttribute('aria-expanded','false');navMenu.classList.remove('open');if(overlay)overlay.classList.remove('active');document.body.style.overflow='';}
+      createOverlay();navToggle.addEventListener('click',function(){navMenu.classList.contains('open')?closeMenu():openMenu();});
+      navLinks.forEach(function(l){l.addEventListener('click',function(){if(navMenu.classList.contains('open'))closeMenu();});});
+      window.addEventListener('scroll',function(){navbar.classList.toggle('scrolled',window.scrollY>50);},{passive:true});
+      if('IntersectionObserver' in window){var obs=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target);}});},{threshold:0.15,rootMargin:'0px 0px -40px 0px'});fadeEls.forEach(function(el){obs.observe(el);});}else{fadeEls.forEach(function(el){el.classList.add('visible');});}
+      document.addEventListener('keydown',function(e){if(e.key==='Escape'&&navMenu.classList.contains('open')){closeMenu();navToggle.focus();}});
+    })();
+  </script>
+</body>
+</html>

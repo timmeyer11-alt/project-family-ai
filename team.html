@@ -6,6 +6,7 @@
   <meta name="description" content="Meet the co-founders of Project Family AI — a team of AI practitioners, educators, and builders dedicated to making AI accessible to everyone.">
   <meta name="keywords" content="Project Family AI team, co-founders, AI leadership, AI education team">
   <meta name="author" content="Project Family AI, LLC">
+  <meta name="theme-color" content="#1B4332">
 
   <!-- Open Graph -->
   <meta property="og:title" content="Meet the Team — Project Family AI">
@@ -31,7 +32,7 @@
     /* Hero */
     .team-hero {
       position: relative;
-      padding: 160px 0 100px;
+      padding: 160px 0 120px;
       background: linear-gradient(160deg, #1B4332 0%, #2D6A4F 40%, #40916C 100%);
       overflow: hidden;
       text-align: center;
@@ -68,6 +69,8 @@
       font-weight: 800;
       color: #fff;
       margin-bottom: 24px;
+      letter-spacing: -0.035em;
+      line-height: 1.1;
       opacity: 0;
       animation: fadeInUp 0.8s ease-out 0.4s forwards;
     }
@@ -82,7 +85,7 @@
 
     /* Team Grid */
     .team-section {
-      padding: 100px 0;
+      padding: 140px 0;
       background: var(--color-bg);
       text-align: center;
     }
@@ -97,10 +100,10 @@
     .team-card {
       background: var(--color-bg-white);
       border-radius: var(--radius-lg);
-      padding: 48px 32px 40px;
+      padding: 48px 36px 40px;
       text-align: center;
-      border: 1px solid var(--color-border);
-      transition: all var(--transition);
+      border: 1px solid rgba(27, 67, 50, 0.06);
+      transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
       position: relative;
       overflow: hidden;
       display: flex;
@@ -109,7 +112,7 @@
     }
 
     .team-card:hover {
-      transform: translateY(-8px);
+      transform: translateY(-4px);
       box-shadow: var(--shadow-xl);
       border-color: transparent;
     }
@@ -166,7 +169,7 @@
     .team-card-bio {
       font-size: 0.9375rem;
       color: var(--color-text-light);
-      line-height: 1.7;
+      line-height: 1.75;
       margin-bottom: 24px;
       flex-grow: 1;
     }
@@ -213,7 +216,7 @@
 
     /* Our Story */
     .our-story {
-      padding: 100px 0;
+      padding: 140px 0;
       background: var(--color-bg-white);
       text-align: center;
     }
@@ -259,7 +262,7 @@
 
     /* Join CTA */
     .join-cta {
-      padding: 100px 0;
+      padding: 140px 0;
       background: linear-gradient(160deg, #1B4332 0%, #2D6A4F 60%, var(--color-primary-dark) 100%);
       text-align: center;
       position: relative;
@@ -288,7 +291,8 @@
     .join-cta-heading {
       font-size: clamp(1.75rem, 4vw, 2.75rem);
       color: #fff;
-      margin-bottom: 16px;
+      margin-bottom: 20px;
+      letter-spacing: -0.03em;
     }
 
     .join-cta-sub {
@@ -318,7 +322,7 @@
       .team-section,
       .our-story,
       .join-cta {
-        padding: 80px 0;
+        padding: 96px 0;
       }
 
       .team-grid {
@@ -344,7 +348,7 @@
       <ul class="nav-menu" id="navMenu">
         <li><a href="index.html" class="nav-link">Home</a></li>
         <li><a href="index.html#services" class="nav-link">Services</a></li>
-        <li><a href="team.html" class="nav-link">Team</a></li>
+        <li><a href="team.html" class="nav-link active">Team</a></li>
         <li><a href="pricing.html" class="nav-link">Pricing</a></li>
         <li><a href="pricing.html" class="nav-link nav-cta-btn">Get Started</a></li>
       </ul>
@@ -369,6 +373,8 @@
     </div>
   </header>
 
+  <main>
+
   <!-- ======== TEAM GRID ======== -->
   <section class="team-section" id="team">
     <div class="container">
@@ -376,7 +382,7 @@
       <h2 class="section-heading">Built by Practitioners, for Everyone</h2>
       <p class="section-sub">Each of us brings a unique lens to the mission. Together, we cover every dimension of making AI truly accessible.</p>
 
-      <div class="team-grid">
+      <div class="team-grid fade-in-stagger">
 
         <!-- Tim Meyer -->
         <div class="team-card fade-in">
@@ -551,6 +557,8 @@
       </div>
     </div>
   </section>
+
+  </main>
 
   <!-- ======== FOOTER ======== -->
   <footer class="footer">

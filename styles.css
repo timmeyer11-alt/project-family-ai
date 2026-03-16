@@ -262,6 +262,33 @@ h2 {
   opacity: 0.8;
 }
 
+/* Logo mark — clean monogram like Stripe/Linear */
+.nav-logo-mark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: var(--color-primary);
+  color: #fff;
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  flex-shrink: 0;
+  transition: all var(--transition);
+}
+
+.nav-logo:hover .nav-logo-mark {
+  background: var(--color-accent);
+  transform: scale(1.05);
+}
+
+.footer .nav-logo-mark {
+  background: var(--color-accent);
+}
+
 .logo-icon {
   font-size: 1.5rem;
   color: var(--color-accent);
@@ -438,14 +465,19 @@ h2 {
 /* Hero logo animation */
 .hero-logo-wrapper {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 48px;
   opacity: 0;
   animation: heroLogoReveal 1s cubic-bezier(0.16, 1, 0.3, 1) 0.1s forwards;
 }
 
 .hero-logo-wrapper img {
   display: inline-block;
-  filter: drop-shadow(0 4px 24px rgba(0, 0, 0, 0.15));
+  width: 160px;
+  height: auto;
+  background: #fff;
+  border-radius: 32px;
+  padding: 24px;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.12), 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
 @keyframes heroLogoReveal {
